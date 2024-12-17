@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon TCG Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Logo1.png" alt="Logo">
+            <h1>Red - TCG Collector</h1>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#cards">Cards</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="cards">
+        <div class="card-grid">
+            <div class="card" onclick="openPopup('card1')">
+                <img src="images/charmander.jpg" alt="Card 1">
+            </div>
+            <div class="card" onclick="openPopup('card2')">
+                <img src="images/PGO_Charmeleon.jpg" alt="Card 2">
+            </div>
+            <div class="card" onclick="openPopup('card3')">
+                <img src="images/PGO_Charizard.jpg" alt="Card 3">
+            </div>
+            <div class="card" onclick="openPopup('card4')">
+                <img src="images/bulbasaur.jpg" alt="Card 4">
+            </div>
+            <div class="card" onclick="openPopup('card5')">
+                <img src="images/PGO_Ivysaur.jpg" alt="Card 5">
+            </div>
+            <div class="card" onclick="openPopup('card6')">
+                <img src="images/PGO_RadiantVenusaur.jpg" alt="Card 6">
+            </div>
+            <div class="card" onclick="openPopup('card7')">
+                <img src="images/squirtle.jpg" alt="Card 7">
+            </div>
+            <div class="card" onclick="openPopup('card8')">
+                <img src="images/PGO_Wartortle.jpg" alt="Card 8">
+            </div>
+            <div class="card" onclick="openPopup('card9')">
+                <img src="images/PGO_Blastoise.jpg" alt="Card 9">
+            </div>
+            <div class="card" onclick="openPopup('card10')">
+                <img src="images/PGO_Pikachu.png" alt="Card 10">
+            </div>
+            <div class="card" onclick="openPopup('card11')">
+                <img src="images/PGO_MelmetalVMAX.jpg" alt="Card 11">
+            </div>
+            <div class="card" onclick="openPopup('card12')">
+                <img src="images/SC_GalvantulaEX.jpg" alt="Card 12">
+            </div>
+            <div class="card" onclick="openPopup('card13')">
+                <img src="images/SC_OrthwormEX.jpg" alt="Card 13">
+            </div>
+            <div class="card" onclick="openPopup('card14')">
+                <img src="images/PGO_MewtwoSWHS.jpg" alt="Card 14">
+            </div>
+            <div class="card" onclick="openPopup('card15')">
+                <img src="images/PGO_MelmetalV.jpg" alt="Card 15">
+            </div>
+            <div class="card" onclick="openPopup('card16')">
+                <img src="images/PGO_AlolanExeggutorV.jpg" alt="Card 16">
+            </div>
+            <div class="card" onclick="openPopup('card17')">
+                <img src="images/SC_GrandTree.jpg" alt="Card 17">
+            </div>
+            </div>
+            <!-- Add more cards as you expand -->
+        </div>
+    </section>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <img src="" id="popup-image" alt="Card Details">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pokémon TCG Collection</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
